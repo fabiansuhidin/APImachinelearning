@@ -8,7 +8,7 @@ import tensorflow as tf
 from PIL import Image
 from flask import Flask, jsonify, request
 
-model = tf.keras.models.load_model('food101')
+model = tf.keras.models.load_model('tenserflowdatabase/food101')
 
 def prepare_image(img):
     img = Image.open(io.BytesIO(img))
