@@ -1,6 +1,2 @@
 # APImachinelearning
-1. Importing libraries
-2. Load the machine learning model
-3. Build functions to preprocess and to predict the image
-4. Initialize the flask object
-5. Set the route and the function that returns something to the user’s browser
+Machine Learning (ML) is a valuable tool for jobs that can't be explicitly coded, such image classification. Deployment is a critical step in the machine learning process. The approach for the REST API that we aim to provide is image categorization. We'll utilize Google Image to look for food images because we're using food as our data set, thus we'll do a food photo query. Following that, the server will provide the response, which will be a collection of food photos.
